@@ -13,6 +13,8 @@ from pytube import YouTube
 from tkinter.ttk import Progressbar
 import pyclbr
 
+import tkinter.messagebox as messagebox
+
 ################# cores ###############
 co0 = "#444466"  # Preta
 co1 = "#feffff"  # branca
@@ -107,7 +109,7 @@ def on_progress(stream, chunk, bytes_remaining):
 
 def download():
     url = e_url.get()
-    quality = "720p"  # Qualidade desejada (pode ser ajustada)
+    quality = "1080p"  # Qualidade desejada (pode ser ajustada)
     
     if not available_streams:
         print("Nenhuma stream disponível.")
@@ -115,15 +117,17 @@ def download():
     
     chosen_stream = None
     for stream in available_streams:
-        if quality in str(stream):
+        if 'video' in str(stream) and quality in str(stream) and 'mp4' in str(stream):
             chosen_stream = stream
             break
     
     if chosen_stream is None:
-        print(f"Nenhuma stream de {quality} disponível.")
+        messagebox.showerror("Erro", f"Nenhuma stream de {quality} disponível.")
         return
     
-    print("Iniciando o download...")
+    messagebox.showinfo("Iniciando Download", "O download está sendo iniciado...")
+    chosen_stream.download()
+    messagebox.showinfo("Download Concluído", "O download foi concluído com sucesso!")
     
     def on_progress(stream, chunk, bytes_remaining):
         
