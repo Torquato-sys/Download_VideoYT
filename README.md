@@ -26,6 +26,8 @@
 * Biblioteca Pytube
 * Biblioteca tkinter
 
+## A Pytube permite aos desenvolvedores acessar informações de vídeos, como título, descrição, tags, URLs, e também possibilita o download de vídeos em diferentes resoluções e formatos disponíveis. Ela se comunica com o YouTube através do acesso à API do YouTube. Basicamente, funciona realizando solicitações HTTP para interagir com a API do YouTube, acessando os recursos disponíveis para pesquisar, obter informações sobre vídeos, listas de reprodução e realizar downloads.
+
 ## Tkinter foi utilizado para criar toda a interface grafica do projeto e dar todo esse charme para ele.
 
 ## Utilizamos a biblioteca tkinter para usufruir da interface grafica dele e das caixas de mensagem para nos avisar de uma maneira mais elegante que o nosso email foi enviado.
