@@ -42,6 +42,15 @@
 - `Funcionalidade 3`: Treinar seus conhecimentos em python e interface tkinter
 
 ##Campo para video de demonstração;
+![Part1](https://github.com/Torquato-sys/Download_VideoYT/assets/80015572/2d6783cc-c47b-4b63-a4f6-384ca636d5dc)
+
+![Part2](https://github.com/Torquato-sys/Download_VideoYT/assets/80015572/b0a6a583-1225-4440-8deb-8601e1112f81)
+## E o resto vocês ja sabem como funciona basta clickar no botão vermelho para Download, EX: 
+![bnt-Download](https://github.com/Torquato-sys/Download_VideoYT/assets/80015572/fa7e7528-94b8-41e3-a4b1-fbfe8d32dbb4)
+
+## Escolher qualidade:
+![Qualidade](https://github.com/Torquato-sys/Download_VideoYT/assets/80015572/f3ddf814-d7a2-4bd5-bfd5-1bc26f560dd3)
+
 
 # Tecnologias utilizadas
 - ``Python 3.x``
